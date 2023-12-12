@@ -1,0 +1,132 @@
+
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	
+}
+body{
+font-family: poppins;
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	background-image: url("../img/header-bg.jpg");
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#inicio{
+	background-image: url("../img/header-bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0);
+  	background-blend-mode: multiply;
+	padding: 10% 0;
+}
+
+#inicio h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#inicio p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.btn-light{
+	border-radius: 0;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+}
+
+.btn-light:hover{
+	background-color: #000;
+	color: #fff;
+	
+}
+
+.object-fit-cover {
+    contain: contain;
+    cover: cover;
+    fill: fill;
+    scale: scale down;
+    none: none ;
+ }
+
+#works {
+	background: url("../img/menu-bg.jpg");
+	}
+
+.row{
+	padding: 5% 0;
+	text-align: center;
+}
+
+.section{
+	padding: 5% 0;
+	text-align: center;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.subtitulo{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+}
+
+#foto {
+	background: #FFFFFF;
+	}
+
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color:#212121;
+	color: #F7F7F7;
+}
+
+footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
